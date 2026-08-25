@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — [ชื่อธุรกิจ]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="logo">[ชื่อธุรกิจ]<span>✦</span></a>
+  <button class="menu-toggle">☰</button>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Work</a>
+    <a href="process.html">Process</a>
+    <a href="contact.html" class="nav-button active">Let's Talk ↗</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="contact-hero">
+  <div>
+    <p class="eyebrow">LET'S TALK</p>
+    <h1>Got an idea?<br><span>Let's make it real.</span></h1>
+    <p>
+      เล่าให้เราฟังว่าคุณกำลังทำอะไร
+      แล้วเราจะติดต่อกลับไปคุยกัน
+    </p>
+  </div>
+
+  <div class="contact-shape">HELLO<br>THERE! ✦</div>
+</section>
+
+<section class="contact-section section">
+
+  <form class="contact-form" onsubmit="submitForm(event)">
+
+    <label>
+      Your name
+      <input type="text" placeholder="ชื่อของคุณ" required>
+    </label>
+
+    <label>
+      Email
+      <input type="email" placeholder="hello@example.com" required>
+    </label>
+
+    <label>
+      What do you need?
+      <select required>
+        <option value="">เลือกบริการ</option>
+        <option>Brand Identity</option>
+        <option>Web Design</option>
+        <option>Creative Campaign</option>
+        <option>Digital Experience</option>
+        <option>Other</option>
+      </select>
+    </label>
+
+    <label>
+      Tell us about your project
+      <textarea rows="6" placeholder="เล่าเกี่ยวกับโปรเจกต์ของคุณ..." required></textarea>
+    </label>
+
+    <button class="btn btn-dark" type="submit">
+      Send Message ↗
+    </button>
+
+    <p id="form-message"></p>
+
+  </form>
+
+  <aside class="contact-info">
+    <p class="eyebrow">CONTACT</p>
+
+    <h3>Email</h3>
+    <a href="mailto:hello@example.com">hello@example.com</a>
+
+    <h3>Social</h3>
+    <a href="#">Instagram ↗</a>
+    <a href="#">Facebook ↗</a>
+
+    <div class="contact-note">
+      <strong>Say hello!</strong>
+      <p>เราชอบคุยกับคนที่มีไอเดียใหม่ ๆ</p>
+    </div>
+  </aside>
+
+</section>
+
+</main>
+
+<footer>
+  <div>
+    <strong>[ชื่อธุรกิจ]</strong>
+    <p>Creative ideas. Bold execution.</p>
+  </div>
+  <p>© 2026 [ชื่อธุรกิจ].</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
